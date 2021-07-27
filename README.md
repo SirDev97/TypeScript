@@ -13,3 +13,7 @@
 - Workflow and TS Config ( branch - 6 )
 
 - TS Functions ( branch - 7 )
+
+- Type Aliases ( branch - 8 )
+
+- Function Signatures ( branch - 9 )
