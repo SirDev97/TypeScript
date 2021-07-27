@@ -17,3 +17,9 @@
 - Type Aliases ( branch - 8 )
 
 - Function Signatures ( branch - 9 )
+
+- The DOM and Type Casting ( branch - 10 )
+
+- Classes in TS ( branch - 11 )
+
+- Public, Private and Readonly ( branch - 12 )
