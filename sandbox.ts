@@ -1,17 +1,14 @@
-/* Learnings...
+type StringOrNum = string | number;
+type objWithName = { name: string; uid: StringOrNum };
 
-- use tsc fileName.ts to compile into JS a file.
+const logDetails = (uid: StringOrNum, item: string) => {
+  console.log(`${item} has a uid of ${uid}`);
+};
 
-- use tsc fileName.ts -w (watch) to compile into a JS file on save.*/
+const greet = (user: objWithName) => {
+  console.log(`${user.name} says hello`);
+};
 
-const character = "luigi";
-
-console.log(character);
-
-const inputs = document.querySelectorAll("input");
-
-console.log(inputs);
-
-inputs.forEach((input) => {
-  console.log(input);
-});
+const greetAgain = (user: { name: string; uid: string | number }) => {
+  console.log(`${user.name} says hello`);
+};

@@ -1,7 +1,9 @@
-var character = "luigi";
-console.log(character);
-var inputs = document.querySelectorAll("input");
-console.log(inputs);
-inputs.forEach(function (input) {
-    console.log(input);
-});
+var logDetails = function (uid, item) {
+    console.log(item + " has a uid of " + uid);
+};
+var greet = function (user) {
+    console.log(user.name + " says hello");
+};
+var greetAgain = function (user) {
+    console.log(user.name + " says hello");
+};
