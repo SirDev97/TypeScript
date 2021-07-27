@@ -1,1 +1,1 @@
-# TS Classes Branch
+# Public, Private and Readonly Branch
