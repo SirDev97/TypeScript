@@ -7,3 +7,5 @@
 - Objects and Arrays ( branch-3 )
 
 - Explicit Types ( branch-4 )
+
+- Dynamic Types ( branch-5 )
