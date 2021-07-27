@@ -1,1 +1,1 @@
-# TypeScript Fundamentals Learning
+# TypeScript Fundamentals
