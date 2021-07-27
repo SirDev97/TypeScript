@@ -2,12 +2,14 @@
 
 - Compiling TypeScript ( master branch )
 
-- Basic Types ( branch-2 )
+- Basic Types ( branch - 2 )
 
-- Objects and Arrays ( branch-3 )
+- Objects and Arrays ( branch - 3 )
 
-- Explicit Types ( branch-4 )
+- Explicit Types ( branch - 4 )
 
-- Dynamic Types ( branch-5 )
+- Dynamic Types ( branch - 5 )
 
-- Workflow and TS Config ( branch-6 )
+- Workflow and TS Config ( branch - 6 )
+
+- TS Functions ( branch - 7 )
