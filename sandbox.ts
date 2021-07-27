@@ -1,17 +1,39 @@
-/* Learnings...
+// explicit types
+let character: string;
+let age: number;
+let isLogged: boolean;
 
-- use tsc fileName.ts to compile into JS a file.
+// age = "mario";
+age = 35;
 
-- use tsc fileName.ts -w (watch) to compile into a JS file on save.*/
+// isLogged = 25;
+isLogged = true;
 
-const character = "luigi";
+// arrays
+let ninjas: string[] = []; // initializing an empty array (of strings)
 
-console.log(character);
+// ninjas = [10, 23];
+ninjas.push("naruto");
 
-const inputs = document.querySelectorAll("input");
+// union types
+let mixed: (string | number | boolean)[] = [];
+mixed.push("hello");
+mixed.push(20);
+mixed.push(false);
+console.log(mixed);
 
-console.log(inputs);
+let uid: string | number;
+uid = "123";
+uid = 123;
 
-inputs.forEach((input) => {
-  console.log(input);
-});
+// objects
+let ninjaOne: object;
+ninjaOne = { name: "sasuke", age: 30 };
+
+let ninjaTwo: {
+  name: string;
+  age: number;
+  hasBlackBelt: boolean;
+};
+
+ninjaTwo = { name: "mario", age: 20, hasBlackBelt: true };
