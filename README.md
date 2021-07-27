@@ -1,3 +1,1 @@
-# TypeScript Fundamentals
-
-- Compiling TypeScript (master branch)
+# TypeScript Objects and Arrays Branch
