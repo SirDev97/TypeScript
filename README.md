@@ -2,4 +2,6 @@
 
 - Compiling TypeScript ( master branch )
 
-- TypeScript Basic Types ( branch-2 )
+- Basic Types ( branch-2 )
+
+- Objects and Arrays ( branch-3 )
