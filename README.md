@@ -9,3 +9,5 @@
 - Explicit Types ( branch-4 )
 
 - Dynamic Types ( branch-5 )
+
+- Workflow and TS Config ( branch-6 )
