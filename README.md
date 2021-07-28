@@ -37,3 +37,11 @@
 - Enums ( branch - 18 )
 
 - Tuples ( branch - 19 )
+
+## Mini Project - ( branch - 20)
+
+### How to use:
+
+1. Use the terminal to 'git checkout branch-20'
+
+2. Simply run the index.html file inside the public folder with the Live Server extension
