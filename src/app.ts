@@ -3,7 +3,6 @@ import { ListTemplate } from "./classes/ListTemplate.js";
 import { Payment } from "./classes/Payments.js";
 import { HasFormatter } from "./interfaces/HasFormatter.js";
 
-//forms
 const form = document.querySelector(".new-item-form") as HTMLFormElement;
 
 //inputs
@@ -33,18 +32,3 @@ form.addEventListener("submit", (e: Event) => {
 
   list.render(doc, type.value, "end");
 });
-
-// TUPLES
-let arr = ["naruto", 17, true];
-arr[0] = false;
-arr[1] = "yoshi";
-arr = [30, false, "mario"];
-
-let tup: [string, number, boolean] = ["luigi", 25, true];
-// tup[0] = false;
-tup[0] = "mario";
-tup[1] = 30;
-
-let student: [string, number];
-// student = [69, "barbie"];
-student = ["lee", 1337];
