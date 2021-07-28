@@ -31,3 +31,9 @@
 - Interfaces with Classes ( branch - 15 )
 
 - Rendering an HTML Template ( branch - 16 )
+
+- Generics ( branch - 17 )
+
+- Enums ( branch - 18 )
+
+- Tuples ( branch - 19 )
