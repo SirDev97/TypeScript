@@ -1,6 +1,10 @@
 body {
   margin: 0;
-  font-family: Roboto;
+  font-family: monospace;
+  font-size: 1.4rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 .wrapper {
   max-width: 960px;
@@ -8,7 +12,7 @@ body {
 }
 h1 {
   margin: 40px auto;
-  color: #ff0aa7;
+  color: #03a1fc;
   text-align: center;
 }
 ul {
@@ -21,7 +25,7 @@ li {
   margin: 10px auto;
 }
 li h4 {
-  color: #ff0aa7;
+  color: #03a1fc;
   margin: 0;
   text-transform: capitalize;
 }
@@ -32,7 +36,7 @@ li p {
 footer {
   background: #eee;
   padding: 60px;
-  margin-top: 60px;
+  margin-top: auto;
 }
 form {
   max-width: 960px;
@@ -42,7 +46,6 @@ form {
 label {
   display: block;
   font-weight: bold;
-  font-size: 0.8em;
   color: #333;
   margin: 16px 0 6px;
 }
@@ -59,15 +62,15 @@ select {
 button {
   color: white;
   border: 0;
-  background: #ff0aa7;
+  background: #03a1fc;
   padding: 6px;
   min-width: 80px;
   border-radius: 4px;
 }
 footer a {
   text-align: center;
+  text-decoration: none;
   display: block;
   color: #999;
   margin-top: 40px;
-  font-size: 0.7em;
 }
