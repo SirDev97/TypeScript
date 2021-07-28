@@ -6,4 +6,4 @@
 
 - Does not bundle the code into a single file
 
-- loads seperate files and makes multiple request
+- loads seperate files and makes multiple requests
