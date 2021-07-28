@@ -45,3 +45,5 @@
 1. Use the terminal to 'git checkout branch-20'
 
 2. Simply run the index.html file inside the public folder with the Live Server extension
+
+- if you dont have Live Server you can download it from the Extensions Market in VS Code
