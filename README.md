@@ -23,3 +23,11 @@
 - Classes in TS ( branch - 11 )
 
 - Public, Private and Readonly ( branch - 12 )
+
+- Modules ( branch - 13 )
+
+- Interfaces ( branch - 14 )
+
+- Interfaces with Classes ( branch - 15 )
+
+- Rendering an HTML Template ( branch - 16 )
