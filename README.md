@@ -2,4 +2,4 @@
 
 - putting everything throughout the learning process together
 
-- - plus some additional styling
++ - plus some additional styling
