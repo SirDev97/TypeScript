@@ -1,20 +1,4 @@
-// classes
-class Invoice {
-  // readonly client: string; // can read it outside and inside the class but cannot change
-  // private details: string; // only read and change inside the class
-  // public amount: number; // default: can change and read both inside and out of the class
-
-  constructor(
-    readonly client: string,
-    private details: string,
-    public amount: number
-  ) {}
-
-  format() {
-    // inv.client = "something"; ---> READONLY
-    return `${this.client} owes $${this.amount} for ${this.details}`;
-  }
-}
+import { Invoice } from "./classes/Invoice.js";
 
 const invOne = new Invoice("mario", "work on mario kart", 250);
 const invTwo = new Invoice("luigi", "work on luigis mansion", 300);
@@ -24,7 +8,6 @@ invoices.push(invOne);
 invoices.push(invTwo);
 
 invoices.forEach((inv) => {
-  // inv.client = "something"; ---> READONLY
   console.log(inv.client, inv.amount, inv.format());
 });
 
